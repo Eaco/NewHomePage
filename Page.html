@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+	    <meta charset="UTF-8">
+	    <title>page</title>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/vendors/jquery.easings.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/vendors/jquery.slimscroll.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="page.css">
+
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+		<script>
+				$(document).ready(function() {
+					    $('#fullpage').fullpage({
+							controlArrows: true,
+							verticalCentered: true,
+							resize : false,
+							paddingTop: '3em',
+							paddingBottom: '10px',
+							fixedElements: '#header, .footer',
+							responsiveWidth: 0,
+							responsiveHeight: 0
+					    });
+
+					});
+		</script>
+  	</head>
+  	<body>
+		<div id="fullpage">
+		    <div class="section first">
+				<h1 class="center">Ben Morris</h1>
+				<h2 class="center subtitle">Software Engineer</h2>
+				<div class="centrer">
+					<div class="links">
+						<a href="https://github.com/Eaco">
+							<img class="git" src="GitHub-Mark-Light-64px.png">
+						</a>
+						<a href="https://ca.linkedin.com/pub/ben-morris/82/52b/644">
+							<img class="git" src="linked.png">
+						</a>
+					</div>
+				</div>
+		    </div>
+		    <div class="section">
+		    	<h1>Some section</h1>
+		    </div>
+		    <div class="section">
+		    	<h1>Some section</h1>
+		    </div>
+		    <div class="section">
+		    	<h1>Some section</h1>
+		    </div>
+		</div>
+  	</body>
+</html>
