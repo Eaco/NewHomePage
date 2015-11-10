@@ -1,13 +1,12 @@
-.ott{
-	height: 100%;
-	width: 100%;
-    box-shadow: inset 0 0 100px rgba(0,0,0,1);
-}
 .center{
 	color: whitesmoke;
 	text-align: center;
-	margin-top: 20%;
 	font-size: 4em;
+}
+.top{
+	display:inline-block;
+	vertical-align: top;
+	margin-top: 10%;
 }
 .subtitle{
 	margin-top: 0%;
@@ -16,6 +15,15 @@
 .first{
 	background-image: url(seoulpower.jpg);
 	background-size: 100% 100%;
+}
+.proj{
+	background-image: url(envbuilding.jpg);
+	background-size: 100% 100%;
+}
+.projectpage{
+	display: inline-block;
+	vertical-align: top;
+	float: none;
 }
 .links{
 	display:inline-block
@@ -28,4 +36,13 @@
 .centrer{
 	text-align: center;
 
+}
+.fp-slides{
+	height: 100%;
+}
+.projDescription .fp-tableCell{
+	vertical-align: top;
+}
+.vertCenter{
+	vertical-align: middle;;;
 }
