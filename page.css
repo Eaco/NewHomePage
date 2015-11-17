@@ -24,6 +24,18 @@
 	background-image: url(images/arduino.jpg);
 	background-size: 100% 100%;
 }
+.luri{
+	background-image: url(images/studioluri.jpg);
+	background-size: 100% 100%;
+}
+.TTH{
+	background-image: url(images/TestRoom.png);
+	background-size: 100% 100%;
+}
+.chat{
+	background-image: url(images/chat.png);
+	background-size: 100% 100%;
+}
 .projectpage{
 	display: inline-block;
 	vertical-align: top;
@@ -60,4 +72,9 @@
 }
 .rounded{
 	border-radius: 2%;
+}
+.projectText{
+	color: whitesmoke;
+	margin-left: 5%;
+	margin-right: 5%;
 }
