@@ -42,7 +42,7 @@
 	float: none;
 }
 .links{
-	display:inline-block
+	display:inline-block;
 	width: 6em;
 }
 .git{
@@ -51,7 +51,6 @@
 }
 .centrer{
 	text-align: center;
-
 }
 .fp-slides{
 	height: 100%;
@@ -77,4 +76,8 @@
 	color: whitesmoke;
 	margin-left: 5%;
 	margin-right: 5%;
+}
+.pdf{
+	margin: 0 auto;
+	display: block;
 }
