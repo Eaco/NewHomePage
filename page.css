@@ -36,6 +36,10 @@
 	background-image: url(images/chat.png);
 	background-size: 100% 100%;
 }
+.resume{
+	background-image: url(images/Seoul.jpg);
+	background-size: 100% 100%;
+}
 .projectpage{
 	display: inline-block;
 	vertical-align: top;
