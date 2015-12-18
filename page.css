@@ -83,4 +83,6 @@
 .pdf{
 	margin: 0 auto;
 	display: block;
+	height: 80%;
+	width: 80%;
 }
