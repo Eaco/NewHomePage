@@ -40,6 +40,10 @@
 	background-image: url(images/Seoul.jpg);
 	background-size: 100% 100%;
 }
+.me{
+	background-image: url(images/goose.jpg);
+	background-size: 100% 100%;
+}
 .projectpage{
 	display: inline-block;
 	vertical-align: top;
@@ -62,7 +66,7 @@
 	vertical-align: top;
 }
 .vertCenter{
-	vertical-align: middle;;;
+	vertical-align: middle;
 }
 .midBanner{
 	width: 60%;
@@ -85,4 +89,10 @@
 	display: block;
 	height: 80%;
 	width: 80%;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background: white;
+}
+#fp-nav ,.right{
+	margin-right: 3%;
 }
