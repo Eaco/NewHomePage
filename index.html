@@ -19,7 +19,9 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 		<script>
 				$(document).ready(function() {
-					    $('#fullpage').fullpage({
+					var scrolled = false;
+
+					$('#fullpage').fullpage({
 							controlArrows: true,
 							verticalCentered: true,
 							resize : false,
@@ -30,6 +32,19 @@
 							navigation: true,
 							slidesNavigation: true,
 							scrollBar: true,
+
+
+							afterLoad: function (anchorLink, index) {
+								if (index == 2 && scrolled == false) {
+									setTimeout(function(){$.fn.fullpage.moveSlideRight();}, 2000);
+
+									scrolled = true;
+								}
+								//using index
+								if (index == 5) {
+									clearInterval(idInterval);
+								}
+							}
 					    });
 
 					});
