@@ -1,1 +1,3 @@
-you've been hacked!
+while(true){
+	alert("you've been hacked");
+}
