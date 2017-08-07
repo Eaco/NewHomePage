@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+  	<header id="answer">
+		  		
+  	</header> 
+  	<script>
+  		var url = document.URL
+  		var urlsegs = url.split("?")
+  		var expression = urlsegs[urlsegs.length-1]
+  		var unexpression = unescape(expression)
+  		ans = eval(unexpression);
+		document.getElementById("answer").innerHTML = ans;
+	</script>
+  
+
+  </body>
+</html>
